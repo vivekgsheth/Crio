@@ -1,0 +1,29 @@
+What is EC2?
+
+What is an AMI(Amazon Machine Image)?
+
+What are some different types of instances that AWS offers? What do they differ in?
+
+How do you connect to a remote machine?
+
+What is SSH?
+
+What is Docker?
+
+When would you need multiple remotes?
+
+Is there any difference between using the https link and the SSH link to clone a repository?
+
+What if you need to use a different name for the download folder rather than the name of the repository with git clone?
+
+Where does git remote command get the mapping of remote name & the corresponding links?
+
+How would you mark all changes for committing using git add instead of listing out each of the file names?
+
+How can we move changes to a modified file from the staging area back to the working directory? What if we need to get the file back to the previous committed state?
+
+What if we don’t want the text editor to show up its glorious face when git commit is run? Is there a workaround to provide the commit message with the command itself?
+
+Now that we have only a handful of files, it’s easy to remember what changes were newly made. How’d you check the changes made to the local repo since the previous commit?
+
+Rename a file and make a commit. Now, make some edits to the file and commit again. git log --follow <filename> lists all commits that changed this file. You’ll be able to find commits related to the original file name are also listed out. How does Git detect renames?
