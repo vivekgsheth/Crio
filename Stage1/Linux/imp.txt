@@ -1,0 +1,10 @@
+Commands:
+ls ~/workspace	 		??
+./<name-of-executible>		runs the exceutable file
+cd -				navigates to previous dir
+cd ~				navigates to parent dir
+ls -l 				info along with files & dirs
+ls -R				recursively prints all files & dirs under dirs
+chmod 				change access permissions
+ln -s {source-filename} {symbolic-filename}	used to create symbloic links
+grep <pattern> <file>		pattern matching in file

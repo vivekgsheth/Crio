@@ -1,0 +1,21 @@
+curl "https://www.linkedin.com/voyager/api/contentcreation/normShares" ^
+  -H "authority: www.linkedin.com" ^
+  -H "pragma: no-cache" ^
+  -H "cache-control: no-cache" ^
+  -H "x-restli-protocol-version: 2.0.0" ^
+  -H "x-li-lang: en_US" ^
+  -H "user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" ^
+  -H "x-li-page-instance: urn:li:page:d_flagship3_feed;VLK5rHxaT/SXbgDSIkbZ5Q==" ^
+  -H "content-type: application/json; charset=UTF-8" ^
+  -H "accept: application/vnd.linkedin.normalized+json+2.1" ^
+  -H "csrf-token: ajax:3796260361661920967" ^
+  -H "x-li-track: ^{^\^"clientVersion^\^":^\^"1.7.7676^\^",^\^"mpVersion^\^":^\^"1.7.7676^\^",^\^"osName^\^":^\^"web^\^",^\^"timezoneOffset^\^":5.5,^\^"deviceFormFactor^\^":^\^"DESKTOP^\^",^\^"mpName^\^":^\^"voyager-web^\^",^\^"displayDensity^\^":1,^\^"displayWidth^\^":1366,^\^"displayHeight^\^":768^}" ^
+  -H "origin: https://www.linkedin.com" ^
+  -H "sec-fetch-site: same-origin" ^
+  -H "sec-fetch-mode: cors" ^
+  -H "sec-fetch-dest: empty" ^
+  -H "referer: https://www.linkedin.com/feed/" ^
+  -H "accept-language: en-US,en;q=0.9" ^
+  -H "cookie: li_sugr=0df0fc03-b547-4e7d-9050-79e923f3b010; bcookie=^\^"v=2^&ffdbaa9e-c125-445b-854f-91f3fabfb400^\^"; bscookie=^\^"v=1^&20200728052312836f4e52-12d5-45f5-86c1-76a7596a0074AQF0mrcPJO9mO5ck1vsuTo6lu8stEE2K^\^"; lissc=1; _ga=GA1.2.1048621022.1596183179; li_rm=AQEOgW0Yh2IB1wAAAXOj7X3NzqFMI606Nk8YSXFjcoiPBzz6P1tMp-sxIlfHKReRZj4Suu26aHbt10I4UKaV2YFRCUuYuNN3L57h3WsN5vHQpATO7ojsexMt; AMCVS_14215E3D5995C57C0A495C55^%^40AdobeOrg=1; aam_uuid=48945052558795270390378362978103299814; liap=true; JSESSIONID=^\^"ajax:3796260361661920967^\^"; lang=v=2^&lang=en-us; spectroscopyId=a3811cf4-5675-4910-bbf4-5e527ac6259a; _gcl_au=1.1.2114469546.1596547847; lil-lang=en_US; s_cc=true; li_at=AQEDASW3GCcF5PE-AAABc6PtqZ0AAAF2_3MY3FYAvCN_LicquYEvZ56noK4_0oDTdpDJfI74aIjNZd1442GQMuGhnJSnEWS73Ftl1Kmn9_eKr6ljhjtpwDfXjlsZZbX7KTJoKToWXLym4EjjikIKMT-a; li_oatml=AQHhQXFTjy4XBwAAAXbg7cp3vdHZYjXF0BO9qfgHL_HDa0svW5SB13-wzVVlJV9bODTrCBNs-oAjeEtGpfLDovS0cwRx024M; _gid=GA1.2.162053526.1610172846; sdsc=1^%^3A1SZM1shxDNbLt36wZwCgPgvN58iw^%^3D; AMCV_14215E3D5995C57C0A495C55^%^40AdobeOrg=-637568504^%^7CMCIDTS^%^7C18638^%^7CMCMID^%^7C48379673224744616200400565430578806061^%^7CMCAAMLH-1610912970^%^7C12^%^7CMCAAMB-1610912970^%^7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y^%^7CMCOPTOUT-1610315370s^%^7CNONE^%^7CvVersion^%^7C5.1.1^%^7CMCCIDH^%^7C-1597676891; UserMatchHistory=AQLCpN827eXjKAAAAXbt2OZBU3C_IdG7iFIkRlbuAoW18085wbrGsfg9KCDz9dnagVYkGKdb3n6ax9uxk0NJthlQKuowvXbTK60tadF6Hd1vIMkMQhBiWbbPx2QKJxxvfaM4ORkhCMOwfTVCib7tA_mvUuXygyk7zs12QMs5GhUE2U1LmNiWtlSzsOvNQQn_xJ74ZZd-DlSRD3FJktpZlIYB13UopjWslwNGj1bULIb0DQ9GhnvvfwtsVlx-nJeyaXn82mbXcwahbbLM8-SH4VL-f2Juc5yXKdYo; lidc=^\^"b=TB63:s=T:r=T:g=2917:u=53:i=1610308188:t=1610360888:v=1:sig=AQFZ_Lx0DTnjVZKAuz8iucN2FfPuyrUU^\^"" ^
+  --data-binary "^{^\^"visibleToConnectionsOnly^\^":false,^\^"commentsDisabled^\^":false,^\^"externalAudienceProviders^\^":^[^],^\^"commentaryV2^\^":^{^\^"text^\^":^\^"Learn by doing^\^",^\^"attributes^\^":^[^]^},^\^"origin^\^":^\^"FEED^\^",^\^"media^\^":^[^]^}" ^
+  --compressed

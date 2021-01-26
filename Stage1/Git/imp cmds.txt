@@ -1,0 +1,18 @@
+create a local repo from remote repo :			git clone <ssh addr>
+
+check status : 						git status
+
+get remote branch information : 			git remote -v
+
+add files to next commit(This pushes the changes from the working directory to the staging area):
+ 							git add <file>
+
+commit the files : 					git commit
+
+directly commit all changes at once without adding it to staging area : 
+							git commit -a	
+
+to view all commits : 					git log
+
+sending updates from your local repo to the remote repo: git push -u origin master
+
